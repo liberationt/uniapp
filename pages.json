@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"white"
+			}
+		}
+        ,{
+            "path" : "pages/tabbar/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/tabbar/follow/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/label/label",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "标签管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/homeDetails/homeDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#666",
+		"selectedColor":"#f07373",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+				"pagePath":"pages/tabbar/index/index",
+				"iconPath":"static/home.png",
+				"selectedIconPath":"static/homeActive.png"
+			},
+			{
+				"pagePath":"pages/tabbar/follow/follow",
+				"iconPath":"static/followActive.png",
+				"selectedIconPath":"static/follow.png"
+			},
+			{
+				"pagePath":"pages/tabbar/my/my",
+				"iconPath":"static/my.png",
+				"selectedIconPath":"static/myActive.png"
+			}
+		]
+	}
+}

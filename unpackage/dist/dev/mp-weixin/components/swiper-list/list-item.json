@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "scroll-list": "/components/scroll-list/scroll-list",
+    "card-list": "/components/card-list/card-list",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  },
+  "component": true
+}
